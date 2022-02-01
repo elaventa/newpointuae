@@ -19,6 +19,7 @@ const Facilities = () => {
           showArrows={false}
           showThumbs={false}
           infiniteLoop={true}
+showStatus={false}
         >
           <div className="image">
             <StaticImage

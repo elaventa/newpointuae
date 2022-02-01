@@ -18,6 +18,7 @@ const Services = () => {
           showArrows={false}
           showThumbs={false}
           infiniteLoop={true}
+showStatus={false}
         >
           <div className="image">
             <StaticImage
@@ -101,6 +102,7 @@ const Services = () => {
           showArrows={false}
           showThumbs={false}
           infiniteLoop={true}
+showStatus={false}
         >
           <div className="image">
             <StaticImage
