@@ -65,9 +65,12 @@
             }
         }
     }
-    .image{
-        img{
-           width: 100%;
+    .images{
+        width: 70%;
+        .image{
+            img{
+               width: 100%;
+            }
         }
     }
 }
