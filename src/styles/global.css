@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400;500;700;600;900&display=swap');
 
 :root{
     --primary-clr: #1c2199;
@@ -23,5 +23,11 @@ a{
 }
 
 .section{
-    padding: 100px 60px;
+    padding: 32px 60px;
+}
+
+@media(max-width: 767px) { 
+    .section{
+        padding: 20px 16px;
+    }
 }
