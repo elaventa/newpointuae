@@ -14,6 +14,27 @@ const Facilities = () => {
 Taping, Under Cutting, Key Ways, Groove & Slots, Casting
 ,Heat Treatments.</p> 
         </div>
+        <div className="content-phone-container">
+            <div className="content-phone">
+                <ul>
+                <li> Shaft Making</li>
+                <li> Gear Cutting</li>
+                <li> Tool and Die Making</li>
+                <li> Spline Cutting</li>
+                <li> Keyway Machining</li>
+                <li> Eccentric Turning</li>
+                <li> Thread Cutting</li>
+                <li> Drilling, Reaming, Counter</li>
+                <li> Boring, Taper Boring</li>
+                <li> Internal Thread Cutting,</li>
+                <li> Taping, Under Cutting</li>
+                <li> Key Ways</li>
+                <li> Groove & Slots</li>
+                <li> Casting</li>
+                <li> Heat Treatments</li>
+                </ul>
+            </div>
+        </div>
     </div>
   </div>;
 };

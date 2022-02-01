@@ -14,6 +14,40 @@ const Services = () => {
         <div className="content">
         <p>We provide services inCat Ladders, Cage Ladders, Handrails, Bollards, Dewa Trenc, Covers, Storage Tanks, Walkways, Platforms, Trolleys, Canopies, Motorized/ Manual Gates, Boundary Wall Fence, Skip for Trash, Mezzanine Floor / Shed, Car Parking Shed, Glass Handrails, Aluminium and Glass, Partitions, Carpentry, Rolling and Bending, Gypsum Partition, Floor Parquet, Kitchen Equipments,Anchor Bolts & Fasteners.</p> 
         </div>
+        <div className="content-phone-container">
+            <div className="content-phone">
+                <ul>
+                    <li>Cat Ladders, Cage Ladders</li> 
+                    <li>Handrails</li> 
+                    <li>Bollards</li> 
+                    <li>Dewa Trench Covers</li> 
+                    <li>Storage Tanks</li> 
+                    <li>Walkways, Platforms</li> 
+                    <li>Trolleys</li> 
+                    <li>Canopies</li> 
+                    <li>Motorized/ Manual Gates</li> 
+                    <li>Boundary Wall Fence</li> 
+                    <li>Skip for Trash</li> 
+                    <li>Mezzanine Floor / Shed</li> 
+                </ul>
+            </div>
+
+            <div className="content-phone">
+                <ul>
+                    <li>Car Parking Shed</li> 
+                    <li>Glass Handrails</li> 
+                    <li>Aluminium and Glass</li> 
+                    <li>Partitions</li> 
+                    <li>Carpentry</li> 
+                    <li>Rolling and Bending</li> 
+                    <li>Gypsum Partition</li> 
+                    <li>Floor Parquet</li> 
+                    <li>Kitchen Equipments</li> 
+                    <li>Anchor Bolts &</li> 
+                    <li>Fasteners</li> 
+                </ul>
+            </div>
+        </div>
     </div>
 
     <h2>Other services</h2>
@@ -25,6 +59,27 @@ machines.</p>
         </div>
         <div className="image">
             <img src={otherServices} alt="" />
+        </div>
+        <div className="content-phone-container">
+            <div className="content-phone">
+                <ul>
+                <li>Plasma, Waterjet</li>
+                <li>Laser Cutting</li> 
+                <li>Hot Dip Galvanizing</li> 
+                <li>Electroplating</li> 
+                <li>Brush Finishing, Mirror</li> 
+                <li>Finishing</li> 
+                <li>Hard Chromeplating,</li> 
+                <li>Decorative</li> 
+                <li>Chromeplating</li> 
+                <li>Epoxy Painting</li> 
+                <li>Gear Box Overhaulic</li> 
+                <li>Machine Maintenance at</li> 
+                <li>site</li> 
+                <li>Modification of Existing</li> 
+                <li>machines</li> 
+                </ul>
+            </div>
         </div>
     </div>
   </div>;
