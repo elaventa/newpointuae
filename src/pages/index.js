@@ -16,26 +16,26 @@ import { Link } from "gatsby"
 
 export default function Home() {
 
-  const [visible, setVisible] = useState(false)
+  // const [visible, setVisible] = useState(false)
   
-  const toggleVisible = () => {
-    const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 500){
-      setVisible(true)
-    } 
-    else if (scrolled <= 500){
-      setVisible(false)
-    }
-  };
+  // const toggleVisible = () => {
+  //   const scrolled = document.documentElement.scrollTop;
+  //   if (scrolled > 500){
+  //     setVisible(true)
+  //   } 
+  //   else if (scrolled <= 500){
+  //     setVisible(false)
+  //   }
+  // };
   
-  const scrollToTop = () =>{
-    window.scrollTo({
-      top: 0, 
-      behavior: 'smooth'
-    });
-  };
+  // const scrollToTop = () =>{
+  //   window.scrollTo({
+  //     top: 0, 
+  //     behavior: 'smooth'
+  //   });
+  // };
   
-  window.addEventListener('scroll', toggleVisible);
+  // window.addEventListener('scroll', toggleVisible);
   return (
     
     <section>
@@ -57,9 +57,9 @@ export default function Home() {
       <About />
       <Footer />
       
-        <div style={{display: visible ? 'flex' : 'none'}} onClick={scrollToTop} className="scrollUp">
+        {/* <div style={{display: visible ? 'flex' : 'none'}} onClick={scrollToTop} className="scrollUp">
           <FaAngleUp fontSize={25} />
-        </div>
+        </div> */}
     </section>
   )
 }
