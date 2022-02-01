@@ -67,6 +67,9 @@
     }
     .images{
         width: 70%;
+        @media(max-width: 800px){
+           width: 100%;
+        }
         .image{
             img{
                width: 100%;
