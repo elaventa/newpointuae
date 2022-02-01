@@ -21,8 +21,9 @@ const Footer = () => {
                           <li> <BiMap /><a href=""></a> P.O.BOX 87556, DUBAI, UAE</li>
                            <li><MdOutlineAttachEmail/><a href="mailto:sales@newpointuae.com"></a>sales@newpointuae.com</li>
                   </div>
-                  <h6>Copyright &copy; 2022 Newpoint Electromechanical</h6>
+                  
               </div>
+              <h5>Copyright &copy; 2022 Newpoint Electromechanical</h5>
           </div>
       </footer>
   );
