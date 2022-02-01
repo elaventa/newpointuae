@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React, { useState } from "react";
 import "./Header.scss";
 import logo from "../../assets/logo.png"
+
 const Header = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
