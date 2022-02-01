@@ -1,0 +1,38 @@
+.services{
+    background-color: var(--background-clr);
+
+    h2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        color: var(--primary-clr);
+        padding: 50px 0;
+    }
+
+    .fabrication-services{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        flex: 1;
+
+        .image{
+            width: 50%;
+            
+        }
+        .content{
+            align-self: flex-start;
+            width: 50%;
+            background-color: var(--white);
+            padding: 36px;
+
+            p{
+                font-size: 24px;
+                line-height: 45px;
+                color: var(--dark-blue);
+                font-weight: normal;
+            }
+        }
+    }
+}

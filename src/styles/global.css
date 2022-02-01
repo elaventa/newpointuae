@@ -6,7 +6,7 @@
     --tertiary-clr: #CCCDDE;
     --background-clr: #F2F6FA;
     --hover-clr: #97B5FF;
-    --dark-blue: #97B5FF;
+    --dark-blue: #11156A;
     --black: #0D0D0E;
     --white: #FFFFFF;
     --gradient: linear-gradient(108.23deg, #1D6BC7 -5.1%, #133B6A 93.54%);
@@ -21,11 +21,26 @@
 a{
     text-decoration: none;
 }
+img{
+    width: 100%;
+}
 
 .section{
     padding: 32px 60px;
 }
-
+.section-title{
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.0125em;
+    text-align: center;
+    color: var(--black);
+}
+.section-desc{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--secondary-clr);
+}
 @media(max-width: 767px) { 
     .section{
         padding: 20px 16px;
