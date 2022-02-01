@@ -1,0 +1,106 @@
+.contact{
+   
+    background-color: #F2F6FA;
+    .row{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 90vw;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    }
+    .col{
+        flex: 30%;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        .one{
+            margin: 20px;
+          padding:20px;
+         width:400px;
+         margin: 0 auto;
+        
+            h1{
+                font-size: 2rem;
+                padding-bottom: 10px;
+            }
+            @media (max-width: 500px) {
+                width:auto;
+              }
+        }
+        .two{
+            color:var(--dark-blue);
+            width:400px;
+            margin: 0 auto;
+            h2{
+                padding-bottom: 20px;
+            }
+            .list{
+              
+                li{
+                    list-style: none;
+                    text-align: center;
+                    padding:8px;
+                    svg{
+                        margin-right:10px;
+                    }
+                }
+            }
+            @media (max-width: 500px) {
+                width:auto;
+              }
+           
+        }
+        .contact-form{
+            form{
+                margin:10px;
+                .form-control{
+                    
+                    padding: 10px;
+                    width:600px;
+                    margin: 15px;
+                    border:1px solid var(--dark-blue);
+                    @media (max-width: 800px) {
+                        width:400px;
+                      }
+                    @media (max-width: 550px) {
+                        width:250px;
+                      }
+                      @media (max-width: 350px) {
+                        width:200px;
+                      }
+                    
+                }
+                input{
+                   height:10px;
+                   border-radius: 50px;
+                   
+                   
+                }
+                ::placeholder{
+                    color: var( --tertiary-clr);
+                }
+                textarea{
+                    border-radius: 10px;
+                }
+                .submit{
+                    width:75px;
+                    height:40px;
+                    border-radius: 40px;
+                    background: var(--gradient);
+                    border: none;
+                    color: var(--white);
+                    cursor: pointer;
+                    transition: box-shadow 0.5s ease;
+                    &:hover{
+                        box-shadow: 0px 0px 24px rgba(28, 33, 153, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}

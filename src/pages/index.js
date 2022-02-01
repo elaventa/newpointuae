@@ -7,8 +7,10 @@ import Facilities from "../components/Services/Facilities"
 import Footer from "../components/Footer/Footer"
 import About from "../components/About/About"
 
+
 import { Helmet } from "react-helmet"
 import ogImg from "../assets/og-image.png"
+import Contact from "../components/Contact/Contact"
 
 export default function Home() {
   return (
@@ -27,6 +29,7 @@ export default function Home() {
       <Navbar />
       <HomeContent />
       <Services />
+      <Contact/>
       <Facilities />
       <About />
       <Footer />
