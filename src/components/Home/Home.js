@@ -1,10 +1,9 @@
 import React from "react"
 import "./Home.scss"
-import home from "../../assets/home.jpg"
-
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 const Home = () => {
   return (
@@ -14,7 +13,9 @@ const Home = () => {
           Destination for all your <span>engineering</span> needs
         </h1>
         <p className="desc">One stop shop for all your engineering solutions</p>
-        <button className="btn">Get started</button>
+        <Link to="#services">
+          <button className="btn">Get started</button>
+        </Link>
       </div>
       <Carousel
         className="images"

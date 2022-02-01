@@ -25,6 +25,7 @@ const Footer = () => {
                   
               </div>
               <h5>Copyright &copy; 2022 Newpoint Electromechanical</h5>
+              <h5>Designed and Developed by <a target='_blank' href="https://elaventa.com">Elaventa</a></h5>
           </div>
       </footer>
   );

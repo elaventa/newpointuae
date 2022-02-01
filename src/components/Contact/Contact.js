@@ -5,7 +5,7 @@ import { MdOutlineAttachEmail } from "react-icons/md"
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="row">
         <div className="col">
           <div className="one">
