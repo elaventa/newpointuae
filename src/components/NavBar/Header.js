@@ -12,17 +12,15 @@ const Header = () => {
       <nav className="navbar">
       <Link className="nav-logo" to="/"><img src={logo} className="logo" alt="Logo" /></Link>
         <ul className={click ? 'nav-menu active': "nav-menu"}>
-          <li className="nav-item" onClick={closeMobileMenu}>
-            <Link to="#">Home</Link>
-          </li>
-          <li className="nav-item" onClick={closeMobileMenu}>
-            <Link to="#about">About</Link>
-          </li>
+          
           <li className="nav-item" onClick={closeMobileMenu}>
             <Link to="#services">Services</Link>
           </li>
           <li className="nav-item" onClick={closeMobileMenu}>
             <Link to="#facilities">Facilities</Link>
+          </li>
+          <li className="nav-item" onClick={closeMobileMenu}>
+            <Link to="#about">About</Link>
           </li>
           <li className="nav-item" onClick={closeMobileMenu}>
             <Link to="#contact">Contact</Link>
