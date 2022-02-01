@@ -69,12 +69,16 @@
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 700;
+  width: 500px;
 }
 
 
 
 
 @media only screen and (max-width: 768px) {  
+  .nav-logo{
+    width: 350px;
+  }
   .navbar {
       justify-content: space-between;
       padding: 0.5rem 1rem;
