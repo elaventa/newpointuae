@@ -5,6 +5,7 @@ import "../styles/global.css"
 import Services from "../components/Services/Services"
 import Facilities from "../components/Services/Facilities"
 import Footer from "../components/Footer/Footer"
+import About from "../components/About/About"
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <HomeContent />
       <Services />
       <Facilities />
+      <About />
       <Footer />
     </section>
   )

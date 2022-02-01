@@ -20,6 +20,7 @@
     "gatsby-plugin-image": "^2.6.0",
     "gatsby-plugin-sass": "^5.2.0",
     "gatsby-plugin-sharp": "^4.6.0",
+    "gatsby-source-filesystem": "^4.6.0",
     "gatsby-transformer-sharp": "^4.6.0",
     "gh-pages": "^3.2.3",
     "react": "^17.0.1",
