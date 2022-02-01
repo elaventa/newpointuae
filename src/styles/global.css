@@ -18,6 +18,10 @@
     font-weight: 600;
     scroll-behavior: smooth;
 }
+*::selection{
+    background-color: var(--hover-clr);
+    color: var(--primary-clr);
+}
 
 .scrollUp{
     width: 50px;
