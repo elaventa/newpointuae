@@ -3,6 +3,7 @@ import './Footer.scss'
 import { BsTelephone }  from 'react-icons/bs';
 import { MdOutlineAttachEmail } from 'react-icons/md';
 import { BiMap } from 'react-icons/bi'
+import { Link } from 'gatsby';
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
           <div className='container'>
               <div className="row">
                   <div className="col">
-                        <li><a href=""> Home</a></li>
-                        <li><a href=""> Products</a></li>
-                        <li><a href=""> Facilities</a></li>
+                        <li><Link to="#"> Home</Link></li>
+                        <li><Link to="#services"> Services</Link></li>
+                        <li><Link to="#facilities"> Facilities</Link></li>
                        
                   </div>
                   <div className="col">

@@ -19,6 +19,22 @@
     scroll-behavior: smooth;
 }
 
+.scrollUp{
+    width: 50px;
+    height: 50px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 8px #CCCDDE;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
 a{
     text-decoration: none;
 }
@@ -54,5 +70,10 @@ img{
     .section-desc{
         font-size: 12px;
         line-height: 24px;
+    }
+    .scrollUp{
+        width: 30px;
+        height: 30px;
+        
     }
 }
