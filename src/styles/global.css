@@ -1,9 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400;500;600;900&display=swap');
+
+:root{
+    --primary-clr: #1c2199;
+    --secondary-clr: #8D8D99;
+    --tertiary-clr: #CCCDDE;
+    --background-clr: #F2F6FA;
+    --hover-clr: #97B5FF;
+    --dark-blue: #97B5FF;
+    --black: #0D0D0E;
+    --white: #FFFFFF;
+    --gradient: linear-gradient(108.23deg, #1D6BC7 -5.1%, #133B6A 93.54%);
+}
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
 }
 
 a{
     text-decoration: none;
+}
+
+.section{
+    padding: 100px 60px;
 }
