@@ -13,16 +13,19 @@ const Header = () => {
       <Link className="nav-logo" to="/"><img src={logo} className="logo" alt="Logo" /></Link>
         <ul className={click ? 'nav-menu active': "nav-menu"}>
           <li className="nav-item" onClick={closeMobileMenu}>
-            <Link to="">Home</Link>
+            <Link to="#">Home</Link>
           </li>
           <li className="nav-item" onClick={closeMobileMenu}>
-            <Link to="">About</Link>
+            <Link to="#about">About</Link>
           </li>
           <li className="nav-item" onClick={closeMobileMenu}>
-            <Link to="">Product</Link>
+            <Link to="#services">Services</Link>
           </li>
           <li className="nav-item" onClick={closeMobileMenu}>
-            <Link to="">Contact</Link>
+            <Link to="#facilities">Facilities</Link>
+          </li>
+          <li className="nav-item" onClick={closeMobileMenu}>
+            <Link to="#contact">Contact</Link>
           </li>
         </ul>
           <div className={click ? 'hamburger active' : 'hamburger'} onClick={handleClick}>

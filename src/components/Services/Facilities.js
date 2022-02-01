@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 const Facilities = () => {
-  return <div className='section services'>
+  return <div id='facilities' className='section services'>
     <h1 className="section-title">Our Facilities</h1>
     <p className="section-desc">Our machine shop helps you in following services.</p>
     <div style={{marginTop: 70}} className="fabrication-services">
