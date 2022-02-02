@@ -2,6 +2,7 @@ import React from "react"
 import "./Contact.scss"
 import { BsTelephone } from "react-icons/bs"
 import { MdOutlineAttachEmail } from "react-icons/md"
+import swal from "sweetalert"
 
 const Contact = () => {
   return (
@@ -36,6 +37,14 @@ const Contact = () => {
               action="https://send.pageclip.co/msBW4ufy2j4yuVplIXxvWpAEWD13Gs1b"
               className="pageclip-form"
               method="post"
+              onSubmit={() =>
+                swal({
+                  title: "Thank you for Contacting",
+                  text: "We will reach out to you soon!",
+                  icon: "success",
+                  button: "Close",
+                })
+              }
             >
               <input
                 type="text"
@@ -61,7 +70,11 @@ const Contact = () => {
                 required
               ></textarea>{" "}
               <br />
-              <input type="submit" className="submit" value="Send" />
+              <input
+                type="submit"
+                className="submit button pageclip-form__submit"
+                value="Send"
+              />
             </form>
           </div>
         </div>
