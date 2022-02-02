@@ -3,8 +3,14 @@ import "./Contact.scss"
 import { BsTelephone } from "react-icons/bs"
 import { MdOutlineAttachEmail } from "react-icons/md"
 import swal from "sweetalert"
+import { useState } from "react"
 
 const Contact = () => {
+
+  const [name, setname] = useState("");
+  const [email, setemail] = useState("");
+  const [message, setmessage] = useState("");
+
   return (
     <div id="contact" className="contact">
       <div className="row">
@@ -51,6 +57,8 @@ const Contact = () => {
                 name="name"
                 className="form-control"
                 placeholder="Your Name"
+                value={name}
+                onChange={e => setname(e.target.value)}
                 required
               />
               <br />
@@ -59,6 +67,8 @@ const Contact = () => {
                 name="email"
                 className="form-control"
                 placeholder="Your Email"
+                value={email}
+                onChange={e => setemail(e.target.value)}
                 required
               />
               <br />
@@ -67,6 +77,8 @@ const Contact = () => {
                 className="form-control"
                 placeholder="Message"
                 rows="8"
+                value={message}
+                onChange={e => setmessage(e.target.value)}
                 required
               ></textarea>{" "}
               <br />
