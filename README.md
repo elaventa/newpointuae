@@ -1,5 +1,7 @@
 # Setting up the code
 
+This website is developed using gatsby framework <br />
+
 `git clone https://github.com/elaventa/newpointuae.git` <br />
 `cd newpointuae` <br />
 `npm i` <br />
