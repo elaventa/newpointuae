@@ -93,7 +93,11 @@
                     width: 70vw;
                     padding: 32px 16px;
                     margin: 16px;
-
+                    list-style-image: url('../../assets/metal.png');
+                    
+                    li{
+                        margin: 10px 0;
+                    }
                 }
             }
         }
