@@ -48,6 +48,23 @@
             @media(max-width: 800px) {
                display: none;
             }
+            ul{
+                padding: 32px 16px;
+                margin: 16px;
+                list-style-image: url('../../assets/metal.png');
+                display: flex;
+                flex-wrap: wrap;
+                flex: 1;
+                align-items: center;
+                justify-content: space-between;
+                li{
+                    width: 50%;
+                    margin: 2px 0;
+                    @media(max-width: 800px) {
+                        width: 100%;
+                    }
+                }
+            }
 
             p{
                 font-size: 24px;
@@ -84,13 +101,13 @@
                 border-radius: 24px;
                 font-weight: normal;
                 color: var(--dark-blue);
-                width: 70vw;
+                // width: 70vw;
                 background-color: var(--white);
                 font-weight: normal;
                 font-size: 16px;
                 line-height: 24px;
                 ul{
-                    width: 70vw;
+                    width: 50vw;
                     padding: 32px 16px;
                     margin: 16px;
                     list-style-image: url('../../assets/metal.png');

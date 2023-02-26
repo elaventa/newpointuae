@@ -18,7 +18,7 @@ const Services = () => {
           showArrows={false}
           showThumbs={false}
           infiniteLoop={true}
-showStatus={false}
+          showStatus={false}
         >
           <div className="image">
             <StaticImage
@@ -39,13 +39,21 @@ showStatus={false}
         </Carousel>
         <div className="content">
           <p>
-            We provide services inCat Ladders, Cage Ladders, Handrails,
-            Bollards, Dewa Trenc, Covers, Storage Tanks, Walkways, Platforms,
-            Trolleys, Canopies, Motorized/ Manual Gates, Boundary Wall Fence,
-            Skip for Trash, Mezzanine Floor / Shed, Car Parking Shed, Glass
-            Handrails, Aluminium and Glass, Partitions, Carpentry, Rolling and
-            Bending, Gypsum Partition, Floor Parquet, Kitchen Equipments,Anchor
-            Bolts & Fasteners.
+            We provide services in
+            <ul>
+              <li>Cat Ladders, Cage Ladders</li>
+              <li>Handrails</li>
+              <li>Bollards</li>
+              <li>Dewa Trench Covers</li>
+              <li>Storage Tanks</li>
+              <li>Walkways, Platforms</li>
+              <li>Trolleys</li>
+              <li>Canopies</li>
+              <li>Motorized/ Manual Gates</li>
+              <li>Boundary Wall Fence</li>
+              <li>Skip for Trash</li>
+              <li>Mezzanine Floor / Shed</li>
+            </ul>
           </p>
         </div>
         <div className="content-phone-container">
@@ -88,11 +96,20 @@ showStatus={false}
       <div className="fabrication-services">
         <div className="content">
           <p>
-            We also provide services such as Plasma Waterjet and Laser Cutting,
-            Hot Dip Galvanizing, Electroplating, Brush Finishing, Mirror
-            Finishing, Hard Chromeplating, Decorative Chromeplating, Epoxy
-            Painting, Gear Box Overhaulic, Machine Maintenance at site,
-            Modification of existing machines.
+            We also provide services such as{" "}
+            <ul>
+              <li>Plasma, Waterjet</li>
+              <li>Laser Cutting</li>
+              <li>Hot Dip Galvanizing</li>
+              <li>Electroplating</li>
+              <li>Brush Finishing, Mirror Finishing</li>
+              <li>Hard Chromeplating,</li>
+              <li>Decorative Chromeplating</li>
+              <li>Epoxy Painting</li>
+              <li>Gear Box Overhaulic</li>
+              <li>Machine Maintenance at site</li>
+              <li>Modification of Existing machines</li>
+            </ul>
           </p>
         </div>
         <Carousel
@@ -102,7 +119,7 @@ showStatus={false}
           showArrows={false}
           showThumbs={false}
           infiniteLoop={true}
-showStatus={false}
+          showStatus={false}
         >
           <div className="image">
             <StaticImage
@@ -128,17 +145,13 @@ showStatus={false}
               <li>Laser Cutting</li>
               <li>Hot Dip Galvanizing</li>
               <li>Electroplating</li>
-              <li>Brush Finishing, Mirror</li>
-              <li>Finishing</li>
+              <li>Brush Finishing, Mirror Finishing</li>
               <li>Hard Chromeplating,</li>
-              <li>Decorative</li>
-              <li>Chromeplating</li>
+              <li>Decorative Chromeplating</li>
               <li>Epoxy Painting</li>
               <li>Gear Box Overhaulic</li>
-              <li>Machine Maintenance at</li>
-              <li>site</li>
-              <li>Modification of Existing</li>
-              <li>machines</li>
+              <li>Machine Maintenance at site</li>
+              <li>Modification of Existing machines</li>
             </ul>
           </div>
         </div>

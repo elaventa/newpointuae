@@ -40,11 +40,24 @@ showStatus={false}
         </Carousel>
         <div className="content">
           <p>
-            We help you with Shaft Making, Gear Cutting, Tool and Die Making,
-            Spline Cutting, Keyway Machining, Eccentric Turning, Thread Cutting,
-            Drilling, Reaming, Counter Boring, Taper Boring, Internal Thread
-            Cutting, Taping, Under Cutting, Key Ways, Groove & Slots, Casting
-            ,Heat Treatments.
+            We help you with 
+             <ul>
+              <li> Shaft Making</li>
+              <li> Gear Cutting</li>
+              <li> Tool and Die Making</li>
+              <li> Spline Cutting</li>
+              <li> Keyway Machining</li>
+              <li> Eccentric Turning</li>
+              <li> Thread Cutting</li>
+              <li> Drilling, Reaming, Counter</li>
+              <li> Boring, Taper Boring</li>
+              <li> Internal Thread Cutting,</li>
+              <li> Taping, Under Cutting</li>
+              <li> Key Ways</li>
+              <li> Groove & Slots</li>
+              <li> Casting</li>
+              <li> Heat Treatments</li>
+            </ul>
           </p>
         </div>
         <div className="content-phone-container">
