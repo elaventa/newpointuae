@@ -19,7 +19,7 @@ const Facilities = () => {
           showArrows={false}
           showThumbs={false}
           infiniteLoop={true}
-showStatus={false}
+          showStatus={false}
         >
           <div className="image">
             <StaticImage
@@ -40,8 +40,8 @@ showStatus={false}
         </Carousel>
         <div className="content">
           <p>
-            We help you with 
-             <ul>
+            We help you with
+            <ul>
               <li> Shaft Making</li>
               <li> Gear Cutting</li>
               <li> Tool and Die Making</li>

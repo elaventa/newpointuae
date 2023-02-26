@@ -96,14 +96,15 @@ const Services = () => {
       <div className="fabrication-services">
         <div className="content">
           <p>
-            We also provide services such as{" "}
+            We also provide services such as
             <ul>
               <li>Plasma, Waterjet</li>
               <li>Laser Cutting</li>
               <li>Hot Dip Galvanizing</li>
               <li>Electroplating</li>
-              <li>Brush Finishing, Mirror Finishing</li>
-              <li>Hard Chromeplating,</li>
+              <li>Brush Finishing </li>
+              <li> Mirror Finishing</li>
+              <li>Hard Chromeplating</li>
               <li>Decorative Chromeplating</li>
               <li>Epoxy Painting</li>
               <li>Gear Box Overhaulic</li>
