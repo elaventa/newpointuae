@@ -12,13 +12,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 32px 60px;
+
+
 }
-.navbar .logo {
-  height: 10vh;
-  @media(max-width: 800px){
-    height: 5vh;
-  }
-}
+
 
 
 .hamburger {
@@ -67,9 +64,33 @@
 }
 
 .nav-logo {
-  font-size: 2.1rem;
-  font-weight: 700;
-  width: 500px;
+  display: flex;
+  align-items: center;
+
+  .img{
+    width: 80px;
+  }
+  .content{
+    .first{
+      font-weight: bold;
+      font-size: 2.5rem;
+      @media(max-width: 1300px){
+        font-size: 2rem;
+      }
+      @media(max-width: 600px){
+        font-size: 1.5rem;
+      }
+    }      
+    .second{
+      font-size: 1.2rem;
+      @media(max-width: 1300px){
+        font-size: 1rem;
+      }
+      @media(max-width: 600px){
+        font-size: 0.7rem;
+      }
+    }
+  }
 }
 
 

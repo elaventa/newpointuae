@@ -17,7 +17,15 @@ const Header = () => {
             layout="constrained"
             src="../../assets/logo.png"
             alt="newpointuae"
+            className="img"
           />
+
+          <div className="content">
+            <p className="first">NEW POINT </p>
+            <p className="second">
+              ELECTROMECHANICAL SERVICES
+            </p>
+          </div>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item" onClick={closeMobileMenu}>

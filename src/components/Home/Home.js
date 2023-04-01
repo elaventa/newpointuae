@@ -10,7 +10,7 @@ const Home = () => {
     <section className="section Home">
       <div className="content">
         <h1 className="title">
-          Destination for all your <span>engineering</span> needs
+          Destination for all your <span>engineering</span> works
         </h1>
         <p className="desc">One stop shop for all your engineering solutions</p>
         <Link to="#services">
@@ -26,6 +26,8 @@ const Home = () => {
         infiniteLoop={true}
         showStatus={false}
       >
+       
+       
         <div className="image">
           <StaticImage
             placeholder="blurred"
@@ -38,7 +40,7 @@ const Home = () => {
           <StaticImage
             placeholder="blurred"
             layout="constrained"
-            src="../../assets/home.jpg"
+            src="../../assets/fabrication.jpg"
             alt="fabrication"
           />
         </div>
